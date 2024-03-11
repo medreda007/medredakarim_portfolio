@@ -1,0 +1,36 @@
+.project{
+    position: relative;
+    left: 78%;
+}
+
+.project::before{
+    content: "";
+    position: absolute;
+    top: 46;
+    right: 105%;
+    width: 47vw;
+    height: 1%;
+    background: #ffffff45;
+    z-index: -1;
+}
+
+@media (max-width: 768px) { /* Adjust the max-width according to your needs */
+    .project{
+        left: 65%;
+    }
+    .project::before {
+        top: 42%; /* Adjust this value according to your layout */
+        right: 5%; /* Adjust this value according to your layout */
+        width: 0%; /* Adjust this value according to your layout */
+    }
+}
+
+@media (max-width: 576px) { /* Adjust the max-width according to your needs */
+    .project::before {
+        top: 55%; /* Adjust this value according to your layout */
+        right: 63%; /* Adjust this value according to your layout */
+        width: 70%; /* Adjust this value according to your layout */
+    }
+}
+
+
