@@ -89,7 +89,7 @@ const DotGrid = () => {
             >
                 <h1 className='text-[56px] lg:text-[96px]'>Hey, I'm Reda<span className='text-red-500 font-serif lg:text-[100px]'>.</span></h1>
                 <h2 className='text-[36px]'>I'm a <span className="text-red-500">Full Stack Developer</span></h2>
-                <p className='text-[18px]'>Lorem ipsum dolor, magni repellat quis voluptatm adipisci quos reiciendis necessitatibus, autem, explicabo ipsa vero laudantium facere asperiores eum quibusdam nesciunt.</p>
+                <p className='text-[18px]'>Crafting seamless digital experiences with code. Full-stack web developer passionate about innovation and problem-solving.</p>
                 <a href="#contact"><button className='bg-[red] hover:bg-red-700 text-white font-bold py-2 px-4 w-44 mt-4 rounded'>Contact Me</button></a>
             </motion.div>
 

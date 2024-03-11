@@ -335,7 +335,7 @@ export const HomePage = () => {
                         <div className="lg:w-1/2 lg:pt-11">
                             <form ref={form} onSubmit={sendEmail}>
                                 <div className="wave-group">
-                                    <input required type="text" className="input" />
+                                    <input name="user_email" required type="text" className="input" />
                                     <span className="bar"></span>
                                     <label className="label">
                                         <span className="label-char" style={{ '--index': 0 }}>E</span>
@@ -346,7 +346,7 @@ export const HomePage = () => {
                                     </label>
                                 </div>
                                 <div className="wave-group mt-7 lg:pb-0 pb-8">
-                                    <textarea required type="text" className=" input" />
+                                    <textarea name="message" required type="text" className=" input" />
                                     <span className="bar"></span>
                                     <label className="label">
                                         <span className="label-char" style={{ '--index': 0 }}>M</span>
